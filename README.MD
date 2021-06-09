@@ -12,4 +12,4 @@ For api:
 2. npm install typescript express @types/express stripe nodemon ts-node
 
 Docs:
-https://stripe.com/docs/payments/accept-a-payment?platform=react-native&ui=custom
+https://stripe.com/docs/payments/accept-a-payment?platform=react-native&ui=custom.
