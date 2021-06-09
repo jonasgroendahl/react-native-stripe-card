@@ -4,7 +4,7 @@ import {
   useStripe,
 } from '@stripe/stripe-react-native';
 import React, {useEffect, useState} from 'react';
-import {Alert, Button, SafeAreaView, Text, View} from 'react-native';
+import {Alert, Button, SafeAreaView, View} from 'react-native';
 
 interface AppProps {}
 
@@ -34,7 +34,7 @@ const StripeTest: React.FC = () => {
         console.log('intent', res);
         setKey((res as {clientSecret: string}).clientSecret);
       })
-      .catch(e => Alert.alert(e.message42));
+      .catch(e => Alert.alert(e.message));
   }, []);
 
   const handleConfirmation = async () => {
